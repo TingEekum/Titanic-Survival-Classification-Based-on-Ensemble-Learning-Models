@@ -52,10 +52,10 @@
 
 以結果來看，四個模型在四種指標中都有相當好的表現，其中旋轉森林的訓練集與測試集績效相差較大，可能會有過擬合的情形。<br/><br/>
 最後，以下是四個模型的ROC curve及AUC:
-| 隨機森林(Random Forest | 梯度提升(Gradient Boost) |
+| 隨機森林(Random Forest) | 梯度提升(Gradient Boost) |
 | :---: | :---: |
 | <img width="567" height="455" alt="roc_rf" src="https://github.com/user-attachments/assets/5ccc66da-3705-4b82-9fac-15ad1db45197" /> | <img width="567" height="455" alt="roc_gb" src="https://github.com/user-attachments/assets/524613d8-9529-47e3-918d-995a5ce46254" /> |
 | **極限梯度提升(XGBoost)** | **旋轉森林(Rotation Forest)** |
-| <img width="567" height="455" alt="roc_xgb" src="https://github.com/user-attachments/assets/dddd2d6b-cd4c-4cd1-910e-2c47b968cee3" /> | <img width="567" height="455" alt="roc_rotf" src="https://github.com/user-attachments/assets/119f390a-eb44-45ac-8307-d1352c94d89d" /> |<br/>
+| <img width="567" height="455" alt="roc_xgb" src="https://github.com/user-attachments/assets/dddd2d6b-cd4c-4cd1-910e-2c47b968cee3" /> | <img width="567" height="455" alt="roc_rotf" src="https://github.com/user-attachments/assets/adf114d7-0dca-44b1-a112-9ce4715081f0" /> |<br/>
 
 四個模型的AUC皆接近1，驗證了模型分類成效佳的說法。
